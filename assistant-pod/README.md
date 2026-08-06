@@ -1,5 +1,9 @@
 # assistant-pod
 
+> **Note:** I've stopped using this setup. I now run everything in a VM with
+> limited credentials, including its own GitHub account. This feels much more
+> ergonomic.
+
 Yes, there are a billion "run AI coding tools in a container" projects. None of them
 quite did what I wanted: a single image with all the tools I actually use, my existing
 configs bind-mounted in, and nothing else. No orchestration layer, no daemon, no
